@@ -90,6 +90,17 @@ body {
     pointer-events: none;
 }
 
+.container .profileLayout .profileBadges .profileBadge img {
+    display: block !important;
+    width: 40px !important;
+    height: 40px !important;
+    min-width: 40px !important;
+    min-height: 40px !important;
+    max-width: 40px !important;
+    max-height: 40px !important;
+    object-fit: contain !important;
+}
+
 
 @media (max-width: 480px) {
     .container .avatar {
